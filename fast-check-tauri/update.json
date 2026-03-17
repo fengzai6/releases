@@ -1,6 +1,6 @@
 {
   "version": "0.5.9",
-  "notes": "fix: 同步了一些 websocket 事件，ws 远程近期测试稳定连接，欢迎打开～\\nfeat: 增加一键关闭所有定时任务的配置\\nenhance: 进入每日计划会自动选择配置设置好的那个 planConfig",
+  "notes": "fix: 同步了一些 websocket 事件，ws 远程近期测试稳定连接，欢迎打开～\nfeat: 增加一键关闭所有定时任务的配置\nenhance: 进入每日计划会自动选择配置设置好的那个 planConfig",
   "pub_date": "2026-03-17T02:27:30.764Z",
   "platforms": {
     "darwin-aarch64": {
