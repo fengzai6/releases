@@ -1,0 +1,27 @@
+{
+  "version": "0.7.5",
+  "notes": "新增 MCP 服务（ 设置->agent->mcp），外部 Agent (如装到 codex） 可读写和操作周报，周报复制也支持自定义内容模板。",
+  "pub_date": "2026-09-15T03:16:05.946Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMnVFay9OMU1iM1NvVmRGU3p1dDEvWTRxanh3eUFuSURsSEhIWU83MkxBQlpyd0JuTEVUd0F1ZmptSk1EQkFEZUtFMExPZENTblVrbGY3UGFLTjVCUEEzbForODZtc0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDQxMDcxCWZpbGU6ZmFzdC1jaGVjay10YXVyaS5hcHAudGFyLmd6CjFzWWx3Rm0xZkVGZzdVdVhieC8rbEdZM2ZkZlhXVUwreHVqbkhkbW9XMG5ud3ZYV3FtbEdIMU9xNU5sVkZmRndkYjhjeGxkamlwQUdkWWFqRmx6NkN3PT0K",
+      "url": "https://github.com/fengzai6/releases/releases/download/fast-check-tauri-v0.7.5/fast-check-tauri_aarch64.app.tar.gz"
+    },
+    "darwin-aarch64-app": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMnVFay9OMU1iM1NvVmRGU3p1dDEvWTRxanh3eUFuSURsSEhIWU83MkxBQlpyd0JuTEVUd0F1ZmptSk1EQkFEZUtFMExPZENTblVrbGY3UGFLTjVCUEEzbForODZtc0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDQxMDcxCWZpbGU6ZmFzdC1jaGVjay10YXVyaS5hcHAudGFyLmd6CjFzWWx3Rm0xZkVGZzdVdVhieC8rbEdZM2ZkZlhXVUwreHVqbkhkbW9XMG5ud3ZYV3FtbEdIMU9xNU5sVkZmRndkYjhjeGxkamlwQUdkWWFqRmx6NkN3PT0K",
+      "url": "https://github.com/fengzai6/releases/releases/download/fast-check-tauri-v0.7.5/fast-check-tauri_aarch64.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMnVFay9OMU1iM1NCb3Q5UDBmOXNDem8xTlFwUXNDZ3lvM2VMZGxXRklsU084bGhjYkNaTW1pVGNoMjIvQ3pYTVY2SVpCVjBQZFpOSXlUSS9hRXB6STZUR0dvQ29xbWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDQyMTUwCWZpbGU6ZmFzdC1jaGVjay10YXVyaV8wLjcuNV94NjRfZW4tVVMubXNpCmwydVJsRGsveWpGV1VReHhkZ08wRVhCWVhub3U5MHZNNUMzbk41NGdxVUtjNVRDYlQ3NE5pRFJDTGZBUkRtSFJ2NDFJZzhRRXg2eXMwOWxGUGJZYUJBPT0K",
+      "url": "https://github.com/fengzai6/releases/releases/download/fast-check-tauri-v0.7.5/fast-check-tauri_0.7.5_x64_en-US.msi"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMnVFay9OMU1iM1NCb3Q5UDBmOXNDem8xTlFwUXNDZ3lvM2VMZGxXRklsU084bGhjYkNaTW1pVGNoMjIvQ3pYTVY2SVpCVjBQZFpOSXlUSS9hRXB6STZUR0dvQ29xbWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDQyMTUwCWZpbGU6ZmFzdC1jaGVjay10YXVyaV8wLjcuNV94NjRfZW4tVVMubXNpCmwydVJsRGsveWpGV1VReHhkZ08wRVhCWVhub3U5MHZNNUMzbk41NGdxVUtjNVRDYlQ3NE5pRFJDTGZBUkRtSFJ2NDFJZzhRRXg2eXMwOWxGUGJZYUJBPT0K",
+      "url": "https://github.com/fengzai6/releases/releases/download/fast-check-tauri-v0.7.5/fast-check-tauri_0.7.5_x64_en-US.msi"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMnVFay9OMU1iM2Nocm0vVW1wNGNoa0RDZFZwRHMwYUUxcVRIVXRCbk84aUx3U2ZYdmZsdllzK3Eyd3pneVhCZ2t6YW5KWmRpTUs5d2s1VEo1Uk9IdXkweWxWK2o5U3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDQyMTUwCWZpbGU6ZmFzdC1jaGVjay10YXVyaV8wLjcuNV94NjQtc2V0dXAuZXhlCmdTNGVVdlQvaU9mWFhkTDBjQjN4TWF2SGtKMkNOZzV5QVRGZmpyNWdWcFpMamNLL0FkRmtlS2tyeURCYkt4RGhYVkVaMHV4MHdxclJqMUN2QXQwcEFBPT0K",
+      "url": "https://github.com/fengzai6/releases/releases/download/fast-check-tauri-v0.7.5/fast-check-tauri_0.7.5_x64-setup.exe"
+    }
+  }
+}
