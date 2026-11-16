@@ -1,27 +1,27 @@
 {
-  "version": "0.8.4",
-  "notes": "现在可以更细致地控制通知发送；周报新增自动复制上周进展配置，PPT 支持按年份归档；出勤统计会直接调用请假接口进行校准。另包含若干稳定性与使用体验修复。",
-  "pub_date": "2026-11-05T23:47:41.041Z",
+  "version": "0.8.5",
+  "notes": "**状态更快看见，计划更少遗漏。**\n\n本次更新聚焦每天真正高频的使用场景：快速确认打卡状态、按时提交每日计划、整理常用入口，同时集中修复了影响登录、任务执行和窗口体验的问题。\n\n### 本次亮点\n\n- **托盘快速查看，状态一眼掌握**\\\n  无需打开主窗口，即可查看今日打卡、计划下班时间与下班倒计时，也能快速进入主窗口或设置。\n- **每日计划多一层保障**\\\n  自动提交会持续补查至 11:00；新增独立提交提醒，可自行设置提前时间，当天没有计划或只有草稿时及时提醒。\n- **主界面更听你的**\\\n  标签支持长按隐藏，并通过「更多」菜单随时恢复；设置入口集中到标签栏，常用页面可以按自己的习惯整理。\n- **通知与更新更顺手**\\\n  添加 Webhook 时可直接选择企业微信预设；支持后台预载更新并自行选择安装时机，退出时也能看到正在收尾的任务状态。\n- **稳定性与可排查性集中加固**\\\n  快速查看刷新失败后的恢复、周报验证码与重新登录、移动办公回到前台后的检查、固定时区下的时间处理，以及 Windows 弹窗焦点问题均已修复。日志也会保留更多失败详情，并支持展开合并记录查看每次发生的时间与详情。",
+  "pub_date": "2026-11-16T08:17:21.680Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMnVFay9OMU1iM2F1eVlvREpVV0M4c25nK21tR0QxTVFnTFJUWFJqMWxJdk10bXdkY2FIK2JVeDlnUnF1SzlsazFMbC9NUFdKSjZSdkw1VnMyMXF1TkM0ZWRVbkU5NlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTIyMDQ0CWZpbGU6ZmFzdC1jaGVjay10YXVyaS5hcHAudGFyLmd6CXZlcnNpb246MC44LjQKQ00rK0N6Y2dSZlRhMmgzdkQrYVRpZUxyVzlFbnJ3dHlmdHdFYkhNcGRyaDlVRXN3THdXb29Ya3dBZUg3NHF2K2kzUy9Rb2pWRk5lbnh1TUNOWmorQ1E9PQo=",
-      "url": "https://github.com/fengzai6/releases/releases/download/fast-check-tauri-v0.8.4/fast-check-tauri_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMnVFay9OMU1iM1o0NSs3MUF6RUM1ZmJkdUdweXA3R3VHSitsRFRLbjRQb05nL2l2NGtscFdhbDRLSml6MmlxV3hMcUNQZ2wzNEZxTHUwTGN0cDBBQVBmL2JFSE5kN3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODE2MDIwCWZpbGU6ZmFzdC1jaGVjay10YXVyaS5hcHAudGFyLmd6CXZlcnNpb246MC44LjUKalIwMHFzZ1FuRTFvdllrZUlWZUdkdVJySHpqU0xHUHNnZU02QnBYZ1lTcG0rY2ZUaEdGcCs5N08zYlNVMGxsZ0VQTFpiOG9kTG5sS3FreEtSQyt2QkE9PQo=",
+      "url": "https://github.com/fengzai6/releases/releases/download/fast-check-tauri-v0.8.5/fast-check-tauri_aarch64.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMnVFay9OMU1iM2F1eVlvREpVV0M4c25nK21tR0QxTVFnTFJUWFJqMWxJdk10bXdkY2FIK2JVeDlnUnF1SzlsazFMbC9NUFdKSjZSdkw1VnMyMXF1TkM0ZWRVbkU5NlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTIyMDQ0CWZpbGU6ZmFzdC1jaGVjay10YXVyaS5hcHAudGFyLmd6CXZlcnNpb246MC44LjQKQ00rK0N6Y2dSZlRhMmgzdkQrYVRpZUxyVzlFbnJ3dHlmdHdFYkhNcGRyaDlVRXN3THdXb29Ya3dBZUg3NHF2K2kzUy9Rb2pWRk5lbnh1TUNOWmorQ1E9PQo=",
-      "url": "https://github.com/fengzai6/releases/releases/download/fast-check-tauri-v0.8.4/fast-check-tauri_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMnVFay9OMU1iM1o0NSs3MUF6RUM1ZmJkdUdweXA3R3VHSitsRFRLbjRQb05nL2l2NGtscFdhbDRLSml6MmlxV3hMcUNQZ2wzNEZxTHUwTGN0cDBBQVBmL2JFSE5kN3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODE2MDIwCWZpbGU6ZmFzdC1jaGVjay10YXVyaS5hcHAudGFyLmd6CXZlcnNpb246MC44LjUKalIwMHFzZ1FuRTFvdllrZUlWZUdkdVJySHpqU0xHUHNnZU02QnBYZ1lTcG0rY2ZUaEdGcCs5N08zYlNVMGxsZ0VQTFpiOG9kTG5sS3FreEtSQyt2QkE9PQo=",
+      "url": "https://github.com/fengzai6/releases/releases/download/fast-check-tauri-v0.8.5/fast-check-tauri_aarch64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMnVFay9OMU1iM2Uxa3pDTm1SdkJkZDR2Q0p1SHpsM0Ruc1dOaEFSQXZVM093Sm8wLzJoNlM0NjdvTDFFSlZaMDlCcWtRa2wySDhxcTBGNnd4Q1pWdCt1N2pWRFhoYlFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTIyNDU0CWZpbGU6ZmFzdC1jaGVjay10YXVyaV8wLjguNF94NjRfZW4tVVMubXNpCXZlcnNpb246MC44LjQKSjZ0TmRyckxCRVJ6ZTVWL2d0WkxlVkNHZ3hPMEpZSkc3R2ZNZmxucTh3QmFReEtNMmdsV0hEdE5tSHh1WGhQOGlQSXE1MHdlRFF2NXIzV2tRMjdBRGc9PQo=",
-      "url": "https://github.com/fengzai6/releases/releases/download/fast-check-tauri-v0.8.4/fast-check-tauri_0.8.4_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMnVFay9OMU1iM2QwdkgrS2pBdnBuSUJxTWpYNFMwcUt2RUNVV1I1eG50dytza0tBNU5BTjN5cmVPV29teUlvSkRkci9IVENBVnBRS2ExZklkMXg3cHl6Ykk4bWtJSUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODE3MDM0CWZpbGU6ZmFzdC1jaGVjay10YXVyaV8wLjguNV94NjRfZW4tVVMubXNpCXZlcnNpb246MC44LjUKQXVBQ2tVbUhvcC81d0pHOGxiRVhkK2laUVBsQjFadWZ6MFlOMTJiZlZUT2JvVHpjbjdOSDgzK1N6RXI1ZjE4V2RhZk5WWkJucmhBWEh2WjBpUk5jQlE9PQo=",
+      "url": "https://github.com/fengzai6/releases/releases/download/fast-check-tauri-v0.8.5/fast-check-tauri_0.8.5_x64_en-US.msi"
     },
     "windows-x86_64-msi": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMnVFay9OMU1iM2Uxa3pDTm1SdkJkZDR2Q0p1SHpsM0Ruc1dOaEFSQXZVM093Sm8wLzJoNlM0NjdvTDFFSlZaMDlCcWtRa2wySDhxcTBGNnd4Q1pWdCt1N2pWRFhoYlFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTIyNDU0CWZpbGU6ZmFzdC1jaGVjay10YXVyaV8wLjguNF94NjRfZW4tVVMubXNpCXZlcnNpb246MC44LjQKSjZ0TmRyckxCRVJ6ZTVWL2d0WkxlVkNHZ3hPMEpZSkc3R2ZNZmxucTh3QmFReEtNMmdsV0hEdE5tSHh1WGhQOGlQSXE1MHdlRFF2NXIzV2tRMjdBRGc9PQo=",
-      "url": "https://github.com/fengzai6/releases/releases/download/fast-check-tauri-v0.8.4/fast-check-tauri_0.8.4_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMnVFay9OMU1iM2QwdkgrS2pBdnBuSUJxTWpYNFMwcUt2RUNVV1I1eG50dytza0tBNU5BTjN5cmVPV29teUlvSkRkci9IVENBVnBRS2ExZklkMXg3cHl6Ykk4bWtJSUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODE3MDM0CWZpbGU6ZmFzdC1jaGVjay10YXVyaV8wLjguNV94NjRfZW4tVVMubXNpCXZlcnNpb246MC44LjUKQXVBQ2tVbUhvcC81d0pHOGxiRVhkK2laUVBsQjFadWZ6MFlOMTJiZlZUT2JvVHpjbjdOSDgzK1N6RXI1ZjE4V2RhZk5WWkJucmhBWEh2WjBpUk5jQlE9PQo=",
+      "url": "https://github.com/fengzai6/releases/releases/download/fast-check-tauri-v0.8.5/fast-check-tauri_0.8.5_x64_en-US.msi"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMnVFay9OMU1iM1M5S0NuQUR3TW1zdnNQbVF1aUJhMGkvN0FWcnpySkZKNFM4MkFoNG5aYjBOUGFic3FSbDRSa3FtM2dDa1JhUVBVZ2s0ajJkcExTTnh3V2lac1RJUndFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTIyNDU0CWZpbGU6ZmFzdC1jaGVjay10YXVyaV8wLjguNF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC44LjQKRG9DYmJ3ZVZiWTBreXhndmowRnYwczlwTWxCSG1WK0lMT0VDN2p6RzNQR1NCWTgweERLSndUeFNlVlpRSnp6SDlKeSt6UTJSN1g0R0tYOTluNjMyQnc9PQo=",
-      "url": "https://github.com/fengzai6/releases/releases/download/fast-check-tauri-v0.8.4/fast-check-tauri_0.8.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMnVFay9OMU1iM1c5ei9GcktMYzRwWUcvRzh2ZWV2NC9La0Yycm9nVmhpNUlGQmQ2S3YxL1luZmVuN0xReFVvL1VNdzNIbXJSMXJkNUFwb3VLL2Y2Q1A2MjUwT0RrbEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODE3MDM0CWZpbGU6ZmFzdC1jaGVjay10YXVyaV8wLjguNV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC44LjUKNnpUVVdUVWlkMkRJWTZUMDhvWVhQakpPRGoyb1VtWGhvSXpiRFh6TGtJaDViYTd1aFpFb28wbnY2T1dhVmI0aXIyZWZ4aTFKc1pHLzdST3BHTUtSQXc9PQo=",
+      "url": "https://github.com/fengzai6/releases/releases/download/fast-check-tauri-v0.8.5/fast-check-tauri_0.8.5_x64-setup.exe"
     }
   }
 }
